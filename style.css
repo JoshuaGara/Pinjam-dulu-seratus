@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-color: #d9ac69;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000000;
+  font-family: "" Arvo ", cursive";
+  letter-spacing: 2px;
+
+  animation-name: gerakMasuk;
+  animation-duration: 1.5s;
+}
+
+h1:hover {
+  color: #d2691e;
+  transition: 1.5s;
+}
+
+span {
+  color: #d2691e;
+}
+
+span:hover {
+  color: #fff;
+  transition: 1.2s;
+}
+
+@keyframes gerakMasuk {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate();
+  }
+}
+
+footer {
+  color: #d2691e;
+  font-family: sans-serif;
+  position: relative;
+  top: 120px;
+  font-size: 1.3rem;
+  font-weight: 400;
+
+  animation-name: gerakMasuk;
+  animation-duration: 1.2s;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.btn {
+  outline: none;
+  border: 5px solid #000000;
+  font-size: 2rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #000000;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  margin: 10px;
+  background-color: #d2691e;
+  cursor: pointer;
+
+  animation-name: gerakMasuk;
+  animation-duration: 1.2s;
+}
